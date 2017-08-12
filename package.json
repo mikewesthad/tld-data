@@ -1,0 +1,19 @@
+{
+  "name": "tld-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scrape": "node src/scrape-tld.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "await-to-js": "^1.0.1",
+    "cheerio": "^1.0.0-rc.2",
+    "is-there": "^4.4.2",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  },
+  "dependencies": {}
+}
