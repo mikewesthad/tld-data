@@ -1,13 +1,27 @@
 {
   "name": "tld-data",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.1",
+  "description": "A scrapper that collects the top level domain info from the IANA",
+  "main": "data/tlds.json",
   "scripts": {
     "scrape": "node src/scrape-tld.js"
   },
-  "author": "",
+  "author": "Michael Hadley",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikewesthad/tld-data.git"
+  },
+  "keywords": [
+    "top level domains",
+    "root domains",
+    "IANA",
+    "tld"
+  ],
+  "homepage": "https://github.com/mikewesthad/tld-data#readme",
+  "bugs": {
+    "url": "https://github.com/mikewesthad/tld-data/issues"
+  },
   "devDependencies": {
     "await-to-js": "^1.0.1",
     "cheerio": "^1.0.0-rc.2",
